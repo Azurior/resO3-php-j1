@@ -37,27 +37,52 @@ echo $data . "</br>";
 echo $float . "</br>";
 echo $str;
 */
-
+/*
+// Exo 5
 $animals = ["Chat", "Chien", "Lapin", "Souris"];
 for($i = 0; $i < count($animals); $i++)
 {
     echo "$animals[$i] </br>";
 }
 
-$numbers = [28, 32, 44, -67, 18, 24, -98];
+// Exo 6
+$numbers =  array (28, 32, 44, -67, 18, 24, -98);
 
-foreach($numbers as $key => $negatif)
+for($i = 0; $i < count($numbers); $i++)
 {
-    if($key %2 === 0)
+    if($numbers[$i] < 0)
     {
-        echo "";
+        echo $numbers[$i] . "</br>";
     }
-    else
-    {
-        echo "$negatif </br>";
-    }
-    
-    
 }
+
+// Exo 7
+$user = [
+    "firstName" => "Barack",
+    "lastName" => "Obama"
+];
+
+echo "Je suis {$user['firstName']} {$user['lastName']}, le 44ème président des USA.";
+*/
+    
+// Exo 8
+/*
+$users = [
+    [
+        "firstName" => "Mari",
+        "lastName" => "Doucet"
+    ],
+    [
+        "firstName" => "Hugues",
+        "lastName" => "Froger"
+    ]
+];
+
+foreach($users as $user)
+{
+  
+}
+*/
+
 
 ?>
